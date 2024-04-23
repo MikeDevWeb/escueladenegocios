@@ -1,3 +1,6 @@
+using EsamDB;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +10,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<EsamContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("EsamDB"))
+);
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var contextDB = scope.ServiceProvider.GetRequiredService<EsamContext>();
+    contextDB.Database.Migrate();
+}
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

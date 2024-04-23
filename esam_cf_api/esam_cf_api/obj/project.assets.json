@@ -1589,6 +1589,19 @@
             "rid": "win"
           }
         }
+      },
+      "EsamDB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
+        },
+        "compile": {
+          "bin/placeholder/EsamDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EsamDB.dll": {}
+        }
       }
     }
   },
@@ -4521,10 +4534,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "EsamDB/1.0.0": {
+      "type": "project",
+      "path": "../EsamDB/EsamDB.csproj",
+      "msbuildProject": "../EsamDB/EsamDB.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EsamDB >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -4556,7 +4575,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\EsamDB.csproj": {
+              "projectPath": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\EsamDB.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
