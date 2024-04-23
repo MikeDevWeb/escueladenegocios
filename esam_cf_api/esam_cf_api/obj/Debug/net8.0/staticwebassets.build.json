@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "icWtm4K14YzUpNapdr92v2zkjc4hyOA/QZI9+PcR3ZA=",
+  "Source": "esam_cf_api",
+  "BasePath": "_content/esam_cf_api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

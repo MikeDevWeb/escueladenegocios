@@ -18,8 +18,8 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var contextDB = scope.ServiceProvider.GetRequiredService<EsamContext>();
-    contextDB.Database.Migrate();
+    var context = scope.ServiceProvider.GetRequiredService<EsamContext>();
+    context.Database.Migrate();
 }
 
 

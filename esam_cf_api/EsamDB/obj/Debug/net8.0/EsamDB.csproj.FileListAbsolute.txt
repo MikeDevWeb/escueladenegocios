@@ -1,0 +1,15 @@
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\bin\Debug\net8.0\EsamDB.deps.json
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\bin\Debug\net8.0\EsamDB.runtimeconfig.json
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\bin\Debug\net8.0\EsamDB.dll
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\bin\Debug\net8.0\EsamDB.pdb
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.csproj.AssemblyReference.cache
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.AssemblyInfoInputs.cache
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.AssemblyInfo.cs
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.csproj.CoreCompileInputs.cache
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.sourcelink.json
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.dll
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\refint\EsamDB.dll
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.pdb
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\EsamDB.genruntimeconfig.cache
+C:\Users\miki_\net 8 proyectos\esam\esam_cf_api\EsamDB\obj\Debug\net8.0\ref\EsamDB.dll
