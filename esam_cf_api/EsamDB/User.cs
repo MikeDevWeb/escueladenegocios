@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace EsamDB
 {
-    internal class User
+    public class User
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserID { get; set; }
         public DateTime RegisterDate { get; set; }
-        public string Name { get; set; }
-        public string CI { get; set; }
+        public required string UserName { get; set; }
+        public required string CI { get; set; }
         public int Age { get; set; }
         public DateOnly Birthday { get; set; }
         public Boolean Gender { get; set; }
