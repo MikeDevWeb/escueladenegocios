@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esam_cf_api", "esam_cf_api\esam_cf_api.csproj", "{6A88D1A6-2212-4EAC-A543-22D735AB897E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsamDB", "EsamDB\EsamDB.csproj", "{987429FB-BE33-4D35-979B-4314A08BFE6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A88D1A6-2212-4EAC-A543-22D735AB897E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A88D1A6-2212-4EAC-A543-22D735AB897E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A88D1A6-2212-4EAC-A543-22D735AB897E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A88D1A6-2212-4EAC-A543-22D735AB897E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987429FB-BE33-4D35-979B-4314A08BFE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987429FB-BE33-4D35-979B-4314A08BFE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987429FB-BE33-4D35-979B-4314A08BFE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987429FB-BE33-4D35-979B-4314A08BFE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C2FF693-3C08-4AB6-B2B4-69CC674CCA86}
+	EndGlobalSection
+EndGlobal

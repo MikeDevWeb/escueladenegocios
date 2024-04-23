@@ -1,0 +1,6 @@
+@esam_cf_api_HostAddress = http://localhost:5087
+
+GET {{esam_cf_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
