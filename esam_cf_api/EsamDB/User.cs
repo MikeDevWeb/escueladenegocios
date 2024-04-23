@@ -18,7 +18,10 @@ namespace EsamDB
         public required string CI { get; set; }
         public int Age { get; set; }
         public DateOnly Birthday { get; set; }
-        public Boolean Gender { get; set; }
+        
+        [RegularExpression("^(M|F)$", ErrorMessage = "El género debe ser M o F")]
+        public required string Gender { get; set; }
+        public required string Email { get; set; }
         
     }
 }
