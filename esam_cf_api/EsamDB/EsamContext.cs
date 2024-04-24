@@ -18,10 +18,29 @@ namespace EsamDB
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            modelBuilder.Entity<User>().ToTable("Users");
-            modelBuilder.Entity<Project>().ToTable("Projects").HasOne(p=>p.Category).WithMany(c=>c.Projects).HasForeignKey(p=>p.CategoryId);
+            modelBuilder.Entity<User>().ToTable("Users")
+                .HasOne(u => u.Role)
+                .WithMany()
+                .HasForeignKey(u => u.RoleId);
+            modelBuilder.Entity<Project>().ToTable("Projects")
+                .HasOne(p=>p.Category)
+                .WithMany(c=>c.Projects)
+                .HasForeignKey(p=>p.CategoryId);
+
             modelBuilder.Entity<Category>().ToTable("Categories");
-            
+            modelBuilder.Entity<AreaUser>().ToTable("AreaUsers")
+            .HasKey(au => new { au.AreaID, au.UserID });
+
+            modelBuilder.Entity<AreaUser>()
+                .HasOne(au => au.Area)
+                .WithMany(a => a.AreaUsers)
+                .HasForeignKey(au => au.AreaID);
+
+            modelBuilder.Entity<AreaUser>()
+                .HasOne(au => au.User)
+                .WithMany(u => u.AreaUsers)
+                .HasForeignKey(au => au.UserID);
+
         }
     }
 }

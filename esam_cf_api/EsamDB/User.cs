@@ -27,8 +27,11 @@ namespace EsamDB
         public required string Gender { get; set; }
         [EmailAddress]
         public required string Email { get; set; }
-        public int RolId{ get; set; }
+        public int RoleId{ get; set; }
         public required Role Role { get; set; }
+        public required ICollection<Role> Roles { get; set; }
+        public required ICollection<Area> Areas { get; set; }
+        public required ICollection<Project> Projects { get; set; }
         public required ICollection<AreaUser> AreaUsers { get; set; }
 
     }
