@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|solutionrelative:esam_cf_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esamdb\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|solutionrelative:esamdb\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|solutionrelative:esam_cf_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esamdb\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|solutionrelative:esamdb\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esamdb\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|solutionrelative:esamdb\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esamdb\\esamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|solutionrelative:esamdb\\esamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esamdb\\areauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|solutionrelative:esamdb\\areauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esamdb\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{987429FB-BE33-4D35-979B-4314A08BFE6D}|EsamDB\\EsamDB.csproj|solutionrelative:esamdb\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|solutionrelative:esam_cf_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|c:\\users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A88D1A6-2212-4EAC-A543-22D735AB897E}|esam_cf_api\\esam_cf_api.csproj|solutionrelative:esam_cf_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,38 +42,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\User.cs",
-              "RelativeDocumentMoniker": "EsamDB\\User.cs",
-              "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\User.cs",
-              "RelativeToolTip": "EsamDB\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:35:41.953Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\Program.cs",
               "RelativeDocumentMoniker": "esam_cf_api\\Program.cs",
               "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\Program.cs",
               "RelativeToolTip": "esam_cf_api\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAAEAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T21:03:22.449Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\esam_cf_api\\appsettings.json",
               "RelativeDocumentMoniker": "esam_cf_api\\appsettings.json",
@@ -66,19 +69,87 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-23T20:57:46.992Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EsamContext.cs",
               "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\EsamContext.cs",
               "RelativeDocumentMoniker": "EsamDB\\EsamContext.cs",
               "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\EsamContext.cs",
               "RelativeToolTip": "EsamDB\\EsamContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA0wBUAAACBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T13:21:45.556Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\User.cs",
+              "RelativeDocumentMoniker": "EsamDB\\User.cs",
+              "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\User.cs",
+              "RelativeToolTip": "EsamDB\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:03:36.992Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\Project.cs",
+              "RelativeDocumentMoniker": "EsamDB\\Project.cs",
+              "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\Project.cs",
+              "RelativeToolTip": "EsamDB\\Project.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:48:38.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\Area.cs",
+              "RelativeDocumentMoniker": "EsamDB\\Area.cs",
+              "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\Area.cs",
+              "RelativeToolTip": "EsamDB\\Area.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:44:00.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\Role.cs",
+              "RelativeDocumentMoniker": "EsamDB\\Role.cs",
+              "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\Role.cs",
+              "RelativeToolTip": "EsamDB\\Role.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:05:24.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AreaUser.cs",
+              "DocumentMoniker": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\AreaUser.cs",
+              "RelativeDocumentMoniker": "EsamDB\\AreaUser.cs",
+              "ToolTip": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\AreaUser.cs",
+              "RelativeToolTip": "EsamDB\\AreaUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:43:36.097Z",
               "EditorCaption": ""
             }
           ]

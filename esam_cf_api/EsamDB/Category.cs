@@ -12,7 +12,7 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int CategoryId { get; set; }
         public required string CategoryName { get; set; }
         public required string CategoryDescription { get; set; }
 

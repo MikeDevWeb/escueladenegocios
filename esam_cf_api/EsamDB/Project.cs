@@ -16,8 +16,8 @@ namespace EsamDB
         public required string ProjectDescription { get; set; }
         public required DateTime ProjectStartDate { get; set; }
         public required DateTime ProjectEndDate { get; set; }
-        [ForeignKey("CategoryID")]
-        public required int CategoryID { get; set; }
+        [ForeignKey("CategoryId")]
+        public required int CategoryId { get; set; }
         public virtual required Category Category { get; set; }
     }
 }
