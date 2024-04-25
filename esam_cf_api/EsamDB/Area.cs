@@ -12,11 +12,11 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int AreaId { get; set; }
+        public Guid AreaID { get; set; }
         [Required]
         [MaxLength(35), MinLength(3), RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Solamente se permiten letras.")]
         public required string AreaName { get; set; }
-        public required ICollection<AreaUser> AreaUsers { get; set; }
+        public required IList<AreaUser> AreaUsers { get; set; }
 
     }
 }

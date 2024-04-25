@@ -11,8 +11,7 @@ namespace EsamDB
     public class User
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int UserID { get; set; }
+        public Guid UserID { get; set; }
         [DataType(DataType.Date)]
         public DateTime RegisterDate { get; set; }
         [StringLength(50, MinimumLength = 3, ErrorMessage = "El nombre debe ser de 3 a 50 caracteres")]
@@ -27,12 +26,12 @@ namespace EsamDB
         public required string Gender { get; set; }
         [EmailAddress]
         public required string Email { get; set; }
-        public int RoleId{ get; set; }
+        public Guid RoleId{ get; set; }
         public required Role Role { get; set; }
-        public required ICollection<Role> Roles { get; set; }
-        public required ICollection<Area> Areas { get; set; }
-        public required ICollection<Project> Projects { get; set; }
-        public required ICollection<AreaUser> AreaUsers { get; set; }
+        public required IList<Role> Roles { get; set; }
+        public required IList<Area> Areas { get; set; }
+        public required IList<Project> Projects { get; set; }
+        public required IList<AreaUser> AreaUsers { get; set; }
 
     }
 }

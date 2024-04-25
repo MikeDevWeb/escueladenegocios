@@ -12,11 +12,11 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int RoleId { get; set; }
+        public Guid RoleId { get; set; }
         [StringLength(30, MinimumLength =5, ErrorMessage ="inscribir un nombre entre 5 y 30 caracteres")]
         public required string RoleName { get; set; }
         [StringLength(50, MinimumLength = 5, ErrorMessage = "Inscribir una descripción entre 5 y 50 caracteres")]
         public required string RoleDescription { get; set; }
-       
+        public virtual required IList<User> Users { get; set; }
     }
 }

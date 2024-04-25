@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsamDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af6ea8706a8cc23094a79bdd2d75822f564cab94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4f1ac4083435ab4f5a0a42f96c5d54b7da0e79c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsamDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsamDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

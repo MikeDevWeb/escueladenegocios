@@ -11,13 +11,15 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ProjectID { get; set; }
+        public Guid ProjectID { get; set; }
         public required string ProjectName { get; set; }
         public required string ProjectDescription { get; set; }
         public required DateTime ProjectStartDate { get; set; }
         public required DateTime ProjectEndDate { get; set; }
+        [ForeignKey("UserID")]
+        public required Guid UserID { get; set; }
         [ForeignKey("CategoryId")]
-        public required int CategoryId { get; set; }
+        public required Guid CategoryId { get; set; }
         public virtual required Category Category { get; set; }
     }
 }

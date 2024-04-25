@@ -22,6 +22,7 @@ namespace EsamDB
                 .HasOne(u => u.Role)
                 .WithMany()
                 .HasForeignKey(u => u.RoleId);
+
             modelBuilder.Entity<Project>().ToTable("Projects")
                 .HasOne(p=>p.Category)
                 .WithMany(c=>c.Projects)

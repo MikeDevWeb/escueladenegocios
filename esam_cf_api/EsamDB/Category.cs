@@ -12,11 +12,12 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int CategoryId { get; set; }
+        public Guid CategoryId { get; set; }
         public required string CategoryName { get; set; }
         public required string CategoryDescription { get; set; }
-
-        public virtual ICollection<Project>? Projects { get; set; }
+        [ForeignKey("UserID")]
+        public Guid UserID { get; set; }
+        public required IList<User> Users { get; set; }
 
     }
 }
