@@ -17,7 +17,9 @@ namespace EsamDB
         public required string CategoryDescription { get; set; }
         [ForeignKey("UserID")]
         public Guid UserID { get; set; }
+        public required User User { get; set; }
         public required IList<User> Users { get; set; }
+        public required IList<Project> Projects { get; set; }   
 
     }
 }

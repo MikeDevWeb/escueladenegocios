@@ -28,7 +28,17 @@ namespace EsamDB
                 .WithMany(c=>c.Projects)
                 .HasForeignKey(p=>p.CategoryId);
 
+            modelBuilder.Entity<Area>().ToTable("Areas");
+
+            modelBuilder.Entity<Role>().ToTable("Roles");
+
+            modelBuilder.Entity<Project>().ToTable("Projects")
+                .HasOne(p => p.Area)
+                .WithMany(a => a.Projects)
+                .HasForeignKey(p => p.AreaId);
+
             modelBuilder.Entity<Category>().ToTable("Categories");
+
             modelBuilder.Entity<AreaUser>().ToTable("AreaUsers")
             .HasKey(au => new { au.AreaID, au.UserID });
 
