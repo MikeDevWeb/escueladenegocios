@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("esam_cf_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af6ea8706a8cc23094a79bdd2d75822f564cab94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6fbb8e8ac3839e8918171de62a5868044b3168")]
 [assembly: System.Reflection.AssemblyProductAttribute("esam_cf_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("esam_cf_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

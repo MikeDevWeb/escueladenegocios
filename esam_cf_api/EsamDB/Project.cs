@@ -20,8 +20,8 @@ namespace EsamDB
         public required Guid UserID { get; set; }
         [ForeignKey("CategoryId")]
         public required Guid CategoryId { get; set; }
-        [ForeignKey("AreaId")]
-        public required Guid AreaId { get; set; }
+        [ForeignKey("AreaID")]
+        public required Guid AreaID { get; set; }
         public virtual required Area Area { get; set; }
         public virtual required Category Category { get; set; }
     }

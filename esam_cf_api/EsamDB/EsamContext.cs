@@ -35,7 +35,7 @@ namespace EsamDB
             modelBuilder.Entity<Project>().ToTable("Projects")
                 .HasOne(p => p.Area)
                 .WithMany(a => a.Projects)
-                .HasForeignKey(p => p.AreaId);
+                .HasForeignKey(p => p.AreaID);
 
             modelBuilder.Entity<Category>().ToTable("Categories");
 
