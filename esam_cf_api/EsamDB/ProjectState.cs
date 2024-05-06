@@ -11,7 +11,7 @@ namespace EsamDB
     internal class ProjectState
     {
         [Key]
-        public Guid ProjectStateId { get; set; }
+        public Guid Id { get; set; }
         public required string ProjectStateName { get; set; }
         public required string ProjectStateDetail { get; set; }
         [ForeignKey("ProjectId")]

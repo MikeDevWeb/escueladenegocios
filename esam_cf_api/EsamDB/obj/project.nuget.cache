@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hbo5F8MpDMp2PUpXHAUBlFfW7Wk91AnPLcPmbfwYVAssuAW+9xedXsxPJYhZEVXZ2JleysG2e3Yvh0HKV04Qvw==",
+  "dgSpecHash": "gz3XzTt1SZrK4fZ7ev8A5rYG+j/6psONBRNRgKDyEOGg43nOHGTUH8mEazYeHWjPTEt904HP73axokLo5wfh5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\miki_\\net 8 proyectos\\esam\\esam_cf_api\\EsamDB\\EsamDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miki_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\miki_\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\miki_\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\miki_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\miki_\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\miki_\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

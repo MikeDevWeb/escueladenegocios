@@ -12,7 +12,7 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid AreaID { get; set; }
+        public Guid Id { get; set; }
         [Required]
         [MaxLength(35), MinLength(3), RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Solamente se permiten letras.")]
         public required string AreaName { get; set; }

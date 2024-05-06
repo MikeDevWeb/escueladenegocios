@@ -11,7 +11,7 @@ namespace EsamDB
     public class AreaUser
     {
         [Key]
-        public Guid AreaID { get; set; }
+        public Guid Id { get; set; }
         public required Area Area { get; set; }
         public Guid UserID { get; set; }
         public required User User { get; set; }

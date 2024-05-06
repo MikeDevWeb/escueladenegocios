@@ -11,7 +11,7 @@ namespace EsamDB
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid ProjectID { get; set; }
+        public Guid Id { get; set; }
         public required string ProjectName { get; set; }
         public required string ProjectDescription { get; set; }
         public required DateTime ProjectStartDate { get; set; }
